@@ -28,4 +28,4 @@ Instructions:
 -----
 This Rails 7 with Docker project is created to prevent version incompatibility with other server setup.
 
-- jasonmag
+-- jasonmag
