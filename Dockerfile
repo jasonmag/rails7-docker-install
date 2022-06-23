@@ -17,6 +17,9 @@ RUN gem update --system && gem install bundler
 
 WORKDIR /usr/src/app
 
+RUN bundle add dotenv-rails
+COPY .env.example /usr/src/.env
+
 ENTRYPOINT ["./entrypoint.sh"]
 
 EXPOSE 3000
