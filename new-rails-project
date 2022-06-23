@@ -1,0 +1,5 @@
+echo 'New Rails Project'
+echo 'Running New Rails Project'
+
+cp .env.example .env
+docker compose up
